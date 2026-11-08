@@ -1,37 +1,17 @@
+import java.util.Random;
+
 public class Main {
-    
     public static void main(String[] args) {
-        
-        // THIS IS MY FIRST JAVA PROGRAM
-        
-        /*
-            this
-            is
-            a
-            multi-line
-            comment
-        */
 
+        Random random = new Random();
 
-        System.out.println("ako si calvin");
-        System.out.println("i love diana");
-        System.out.println("i miss diana");
+        int number1 = random.nextInt(1,10);
+        int number2 = random.nextInt(1,10);
+        int number3 = random.nextInt(1,10);
 
-
-        int age = 19;
-        String title = "my age: ";
-
-        System.out.println(title + age);
-
-        boolean isStudent = true;
-
-        if(isStudent){
-            System.out.println("a student");
-        }
-        else{
-            System.out.println("what a student");
-        }
-
+        System.out.println(number1);
+        System.out.println(number2);
+        System.out.println(number3);
 
     }
 }
